@@ -1,0 +1,41 @@
+{
+  "name": "crud-typescript",
+  "version": "1.0.0",
+  "description": "CRUD REST API using TypeScript, PostgreSQL, and TypeOrm",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siddhant-K-code/CRUD-TypeScript.git"
+  },
+  "keywords": [
+    "CRUD",
+    "REST",
+    "API",
+    "TypeScript",
+    "PostgreSQL",
+    "TypeOrm",
+    "Dockerize",
+    "Docker",
+    "Container"
+  ],
+  "author": "Siddhant Khare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siddhant-K-code/CRUD-TypeScript/issues"
+  },
+  "homepage": "https://github.com/Siddhant-K-code/CRUD-TypeScript#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.7.10",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "typeorm": "^0.2.37"
+  }
+}
